@@ -4,14 +4,14 @@ public class ReverseLL {
 
     public static void main(String[] args) {
         SinglyLinkedListedList s1 = new SinglyLinkedListedList();
-        s1.addLast(s1, 0);
-        s1.addLast(s1, 1);
-        s1.addLast(s1, 2);
-        s1.addLast(s1, 3);
-        s1.addLast(s1, 4);
-        s1.printList(s1);
+        SinglyLinkedListedList.addLast(s1, 0);
+        SinglyLinkedListedList.addLast(s1, 1);
+        SinglyLinkedListedList.addLast(s1, 2);
+        SinglyLinkedListedList.addLast(s1, 3);
+        SinglyLinkedListedList.addLast(s1, 4);
+        SinglyLinkedListedList.printList(s1);
         System.out.println();
-        s1.reverseLL(s1);
-        s1.printList(s1);
+        SinglyLinkedListedList.reverseLL(s1);
+        SinglyLinkedListedList.printList(s1);
     }
 }
